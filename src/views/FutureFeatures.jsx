@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   Sparkles, MessageSquare, PhoneCall, FileSpreadsheet, 
-  Calendar, Check, ShieldCheck, Mail, Send
+  Calendar, Check, ShieldCheck, Mail, Send, ChevronRight
 } from 'lucide-react';
 
 export default function FutureFeatures() {

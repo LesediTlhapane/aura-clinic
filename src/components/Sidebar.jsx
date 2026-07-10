@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { LayoutGrid, Clipboard, Pill, AreaChart, Sparkles, Activity } from 'lucide-react';
+import brandLogo from '../assets/brandlogo.png';
 
 export default function Sidebar({ activeWorkspace, setActiveWorkspace }) {
   const workspaces = [
@@ -16,8 +17,8 @@ export default function Sidebar({ activeWorkspace, setActiveWorkspace }) {
       {/* Brand Header */}
       <div className="p-6 border-b border-slate-800">
         <div className="flex items-center gap-2.5 mb-2">
-          <div className="w-8 h-8 rounded-lg bg-indigo-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
-            <Activity className="text-white" size={18} />
+          <div className="w-10 h-10 rounded-xl bg-white/10 border border-slate-700 flex items-center justify-center shadow-lg shadow-slate-950/20 overflow-hidden">
+            <img src={brandLogo} alt="Aura Clinic logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h1 className="text-lg font-bold font-display tracking-tight text-white m-0 leading-none">

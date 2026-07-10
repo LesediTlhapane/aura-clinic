@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useClinic } from '../context/ClinicContext';
 import { 
   ClipboardList, CheckCircle2, Clock, Activity, 
-  Users, Stethoscope, FileText, Send, UserCheck, AlertCircle
+  Users, Stethoscope, FileText, Send, UserCheck, AlertCircle, ChevronRight
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
